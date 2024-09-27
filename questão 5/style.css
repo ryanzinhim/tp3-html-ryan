@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+
+.card {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 20rem;
+}
+
+.card-header {
+            background-color: #4c1d95;
+            padding: 1rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+}
+
+.card-header .toggle {
+            background-color: white;
+            border-radius: 9999px;
+            padding: 0.25rem;
+            position: absolute;
+            top: 0.5rem;
+            left: 0.5rem;
+}
+
+.card-header .toggle .inner {
+            background-color: #4c1d95;
+            border-radius: 9999px;
+            height: 1rem;
+            width: 1rem;
+}
+
+.card-header img {
+            border: 4px solid white;
+            border-radius: 9999px;
+            height: 6rem;
+            width: 6rem;
+}
+
+.card-body {
+            padding: 1rem;
+            text-align: center;
+}
+
+.card-body h2 {
+            color: #1f2937;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+}
+
+.card-body p.title {
+            color: #4c1d95;
+            font-weight: 500;
+            margin: 0.5rem 0;
+}
+
+.card-body p.description {
+            color: #4b5563;
+            font-size: 0.875rem;
+            margin: 0.5rem 0;
+}
+
+.card-body button {
+            background-color: white;
+            border: 1px solid #4c1d95;
+            border-radius: 9999px;
+            color: #4c1d95;
+            font-weight: 500;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+}
+
+.card-footer {
+            background-color: #4c1d95;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+}
+
+.card-footer a {
+            color: white;
+            font-size: 1.25rem;
+            margin: 0 0.5rem;
+}
+    
